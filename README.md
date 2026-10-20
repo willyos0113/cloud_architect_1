@@ -1,4 +1,4 @@
-# AWS Cloud Architect 1 學習筆記
+# AWS Cloud Architect 1 — AWS 雲端工程學習筆記
 
 2026 AWS 雲端架構師課程的講義、CloudFormation 範本與架構筆記。
 
@@ -18,20 +18,20 @@
 
 ### `lectures/` 課程講義
 
-| 檔案 | 主題 |
-| --- | --- |
-| 課程3_AWS VPC Peering.pdf | VPC Peering |
-| 課程5_AWS Lambda+EventBridge.pdf | Lambda 與 EventBridge |
-| 課程6_AWS CloudOps.pdf | CloudOps |
-| 課程7_AWS RDS與搬遷.pdf | RDS 與資料庫搬遷 |
-| 課程8_AWS Storage Family.pdf | Storage 家族(S3、EFS 等) |
+| 檔案                             | 主題                     |
+| -------------------------------- | ------------------------ |
+| 課程3_AWS VPC Peering.pdf        | VPC Peering              |
+| 課程5_AWS Lambda+EventBridge.pdf | Lambda 與 EventBridge    |
+| 課程6_AWS CloudOps.pdf           | CloudOps                 |
+| 課程7_AWS RDS與搬遷.pdf          | RDS 與資料庫搬遷         |
+| 課程8_AWS Storage Family.pdf     | Storage 家族(S3、EFS 等) |
 
 ### `vpc-peering/` VPC Peering 範本
 
 兩份 CloudFormation 範本,分別部署在兩個區域,用來實作跨區域 VPC Peering:
 
-| 檔案 | 區域 | VPC CIDR |
-| --- | --- | --- |
+| 檔案                         | 區域      | VPC CIDR      |
+| ---------------------------- | --------- | ------------- |
 | `vpc-peering-us-east-1.yaml` | us-east-1 | `10.0.0.0/16` |
 | `vpc-peering-us-west-1.yaml` | us-west-1 | `10.1.0.0/16` |
 
