@@ -1,0 +1,12 @@
+# macOS
+.DS_Store
+
+# 憑證與金鑰
+.env
+.env.*
+*.pem
+*.key
+*_accessKeys.csv
+*_credentials.csv
+*.tfstate
+*.tfstate.*
